@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ExampleInjector {
+struct MainInjector {
     func bind(view: UIViewController?) {
         if let view = view as? ExampleView {
             let coordinator = ExampleCoordinator(view: view, externalModule: nil)

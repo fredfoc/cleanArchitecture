@@ -26,7 +26,7 @@
 		9A1661E11FFB912500E821F4 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E01FFB912500E821F4 /* ExampleController.swift */; };
 		9A1661E31FFB930C00E821F4 /* ExampleResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E21FFB930C00E821F4 /* ExampleResultModel.swift */; };
 		9A1661E51FFB979D00E821F4 /* ExampleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E41FFB979D00E821F4 /* ExampleCoordinator.swift */; };
-		9A1661E71FFBAA4F00E821F4 /* ExampleInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E61FFBAA4F00E821F4 /* ExampleInjector.swift */; };
+		9A1661E71FFBAA4F00E821F4 /* MainInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E61FFBAA4F00E821F4 /* MainInjector.swift */; };
 		9A1661E91FFBAB0300E821F4 /* ExampleInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661E81FFBAB0300E821F4 /* ExampleInteractorProtocol.swift */; };
 		9A1661EB1FFBAB3700E821F4 /* ExampleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661EA1FFBAB3700E821F4 /* ExampleViewProtocol.swift */; };
 		9A1661ED1FFBAB7000E821F4 /* ExamplePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661EC1FFBAB7000E821F4 /* ExamplePresenterProtocol.swift */; };
@@ -74,7 +74,7 @@
 		9A1661E01FFB912500E821F4 /* ExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
 		9A1661E21FFB930C00E821F4 /* ExampleResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleResultModel.swift; sourceTree = "<group>"; };
 		9A1661E41FFB979D00E821F4 /* ExampleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoordinator.swift; sourceTree = "<group>"; };
-		9A1661E61FFBAA4F00E821F4 /* ExampleInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleInjector.swift; sourceTree = "<group>"; };
+		9A1661E61FFBAA4F00E821F4 /* MainInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInjector.swift; sourceTree = "<group>"; };
 		9A1661E81FFBAB0300E821F4 /* ExampleInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleInteractorProtocol.swift; sourceTree = "<group>"; };
 		9A1661EA1FFBAB3700E821F4 /* ExampleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewProtocol.swift; sourceTree = "<group>"; };
 		9A1661EC1FFBAB7000E821F4 /* ExamplePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePresenterProtocol.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				9A4CFFBA1FFBB231002DACE1 /* Entities */,
 				9A1661DB1FFB8CF900E821F4 /* ExampleModule */,
 				9A1661B91FFB8BF500E821F4 /* AppDelegate.swift */,
-				9A1661E61FFBAA4F00E821F4 /* ExampleInjector.swift */,
+				9A1661E61FFBAA4F00E821F4 /* MainInjector.swift */,
 				9A1661BD1FFB8BF500E821F4 /* Main.storyboard */,
 				9A1661C01FFB8BF500E821F4 /* Assets.xcassets */,
 				9A1661C21FFB8BF500E821F4 /* LaunchScreen.storyboard */,
@@ -413,7 +413,7 @@
 				9A1661F11FFBAC0400E821F4 /* ExampleCoordinatorProtocol.swift in Sources */,
 				9A1661ED1FFBAB7000E821F4 /* ExamplePresenterProtocol.swift in Sources */,
 				9A1661EF1FFBABBC00E821F4 /* ExampleModelProtocol.swift in Sources */,
-				9A1661E71FFBAA4F00E821F4 /* ExampleInjector.swift in Sources */,
+				9A1661E71FFBAA4F00E821F4 /* MainInjector.swift in Sources */,
 				9A1661DA1FFB8CC100E821F4 /* ExamplePresenter.swift in Sources */,
 				9A1661BC1FFB8BF500E821F4 /* ExampleView.swift in Sources */,
 				9A11B46C1FFBFFA5000B2DBD /* ExternalModuleProtocol.swift in Sources */,

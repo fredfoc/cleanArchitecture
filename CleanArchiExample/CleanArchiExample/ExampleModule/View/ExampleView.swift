@@ -13,9 +13,13 @@ class ExampleView: UIViewController {
     @IBOutlet weak var mainActivity: UIActivityIndicatorView!
     var controller: ExampleController?
     @IBOutlet private weak var resultTextView: UITextView!
-    @IBAction func Example(_ sender: Any) {
+    @IBAction func trigger(_ sender: Any) {
         mainActivity.startAnimating()
         controller?.triggerRequest()
+    }
+    
+    @IBAction func changeScreen(_ sender: Any) {
+        controller?.moveToAnotherScreen()
     }
     
 }

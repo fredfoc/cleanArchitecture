@@ -6,8 +6,9 @@
 //  Copyright © 2018 Fred Fauquette. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol ExampleViewProtocol {
     func displayRequestResult(viewModel: ExampleViewModel)
+    var navigationController: UINavigationController? {get}
 }

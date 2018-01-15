@@ -16,8 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let injector = MainInjector()
-        injector.bind(view: window?.rootViewController)
+        if let navigation = window?.rootViewController as? UINavigationController, let view = navigation.topViewController as? ExampleView {
+            let injector = MainInjector()
+            injector.bind(view: view)
+        }
+        
         return true
     }
 

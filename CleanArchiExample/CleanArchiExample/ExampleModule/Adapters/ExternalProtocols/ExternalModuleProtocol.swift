@@ -6,9 +6,8 @@
 //  Copyright © 2018 Fred Fauquette. All rights reserved.
 //
 
-import Foundation
-
+import UIKit
 
 protocol ExternalModuleProtocol {
-    func changeScreen()
+    func changeScreen(navigationController: UINavigationController?)
 }

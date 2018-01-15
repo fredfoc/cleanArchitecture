@@ -11,7 +11,7 @@ import UIKit
 struct MainInjector {
     func bind(view: UIViewController?) {
         if let view = view as? ExampleView {
-            let coordinator = ExampleCoordinator(view: view, externalModule: nil)
+            let coordinator = ExampleCoordinator(view: view, externalModule: Injector())
             let presenter  = ExamplePresenter(coordinator: coordinator)
             let interactor = ExampleInteractor(presenter: presenter, requestManager: RequestManager())
             let controller = ExampleController(interactor: interactor, coordinator: coordinator)

@@ -23,6 +23,6 @@ extension ExampleCoordinator: ExampleCoordinatorProtocol {
     }
     
     func moveToNextScreen() {
-        externalModule?.changeScreen()
+        externalModule?.changeScreen(navigationController: view?.navigationController)
     }
 }

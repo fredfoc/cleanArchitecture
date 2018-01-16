@@ -1,0 +1,29 @@
+# Template information section
+name: "simplified_vipr"
+summary: "Swift VIPR module template with UIViewController playing as a View."
+author: "Fred Fauquette"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/StoryBoard.storyboard, path: Code/View/storyboard.storyboard.liquid}
+- {name: View/View.swift, path: Code/View/view.swift.liquid}
+
+# Adapters layer
+- {name: Adapters/Presenter.swift, path: Code/Adapters/presenter.swift.liquid}
+- {name: Adapters/Router.swift, path: Code/Adapters/router.swift.liquid}
+- {name: Adapters/ViewModel.swift, path: Code/Adapters/viewModel.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+- {name: Interactor/Model.swift, path: Code/Interactor/model.swift.liquid}
+
+# Injector
+- {name: Injector.swift, path: Code/injector.swift.liquid}
+
+
+# The declarations for test files
+test_files:

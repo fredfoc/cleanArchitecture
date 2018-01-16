@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057231A6FC696AAEAE2CE758 /* ReactNativeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74D5CB9CD540690BB612DE /* ReactNativeViewModel.swift */; };
+		1437F776BC88B41EA300A074 /* ReactNativeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B607550DEA6E51B26AF707 /* ReactNativeModel.swift */; };
+		3C7EF80AEAA7F4D6ECF478B4 /* ReactNativeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120CEA9B3617F939BF72501 /* ReactNativeInteractor.swift */; };
+		90BEDCE1DBD79ABD416DD9AD /* ReactNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B448DDF49B4DF594CFE61 /* ReactNativeView.swift */; };
 		9A11B4511FFBDB69000B2DBD /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A11B4501FFBDB69000B2DBD /* ExampleModelTests.swift */; };
 		9A11B4531FFBDC25000B2DBD /* ExampleControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A11B4521FFBDC25000B2DBD /* ExampleControllerTests.swift */; };
 		9A11B4551FFBDD54000B2DBD /* ExampleCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A11B4541FFBDD54000B2DBD /* ExampleCoordinatorTests.swift */; };
@@ -41,7 +45,11 @@
 		9ABE85D0200CF9D8004D9EAF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85CF200CF9D8004D9EAF /* ViewModel.swift */; };
 		9ABE85D2200CFBE3004D9EAF /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85D1200CFBE3004D9EAF /* Injector.swift */; };
 		9ABE85D4200CFC9A004D9EAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85D3200CFC9A004D9EAF /* Model.swift */; };
+		B4828586119D8E906D916FE7 /* ReactNativeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBFC249E9C9B656EE6896D1 /* ReactNativeRouter.swift */; };
+		CEB9552AC8FEFAC982A84A9A /* ReactNativeInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F32E999F520CD6B74E959 /* ReactNativeInjector.swift */; };
 		CFC01AA1E36C2A0FE132A23A /* Pods_CleanArchiExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE67806D41499E3A3DDC41E /* Pods_CleanArchiExample.framework */; };
+		F2F7BA0A8CCA08561783390F /* ReactNativeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158949AFF98EC3B2A91BA55 /* ReactNativeStoryboard.storyboard */; };
+		FB8F5C7E20ED817EBFC9A35B /* ReactNativePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83678EC3849D095440B7C5E6 /* ReactNativePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C74D5CB9CD540690BB612DE /* ReactNativeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeViewModel.swift; sourceTree = "<group>"; };
+		3120CEA9B3617F939BF72501 /* ReactNativeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeInteractor.swift; sourceTree = "<group>"; };
+		3D2B448DDF49B4DF594CFE61 /* ReactNativeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeView.swift; sourceTree = "<group>"; };
 		6DE67806D41499E3A3DDC41E /* Pods_CleanArchiExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanArchiExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8675C40AB79108D54B48B6 /* Pods-CleanArchiExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchiExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchiExample/Pods-CleanArchiExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6FBFC249E9C9B656EE6896D1 /* ReactNativeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeRouter.swift; sourceTree = "<group>"; };
+		83678EC3849D095440B7C5E6 /* ReactNativePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativePresenter.swift; sourceTree = "<group>"; };
 		8DBFA8EE0B9731270915AAAA /* Pods-CleanArchiExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchiExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchiExample/Pods-CleanArchiExample.release.xcconfig"; sourceTree = "<group>"; };
 		9A11B4501FFBDB69000B2DBD /* ExampleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModelTests.swift; sourceTree = "<group>"; };
 		9A11B4521FFBDC25000B2DBD /* ExampleControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleControllerTests.swift; sourceTree = "<group>"; };
@@ -96,6 +109,9 @@
 		9ABE85CF200CF9D8004D9EAF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9ABE85D1200CFBE3004D9EAF /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
 		9ABE85D3200CFC9A004D9EAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D4B607550DEA6E51B26AF707 /* ReactNativeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeModel.swift; sourceTree = "<group>"; };
+		EC5F32E999F520CD6B74E959 /* ReactNativeInjector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReactNativeInjector.swift; sourceTree = "<group>"; };
+		F158949AFF98EC3B2A91BA55 /* ReactNativeStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = ReactNativeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,26 @@
 				8DBFA8EE0B9731270915AAAA /* Pods-CleanArchiExample.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		36BCDB520602823119CF5F9F /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A492F885A3EC1C0C83C18 /* View */,
+				C6A21359D393553B0B833D4E /* Adapters */,
+				8BF6759B5FDBB37A6E878DE6 /* Interactor */,
+				EC5F32E999F520CD6B74E959 /* ReactNativeInjector.swift */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		8BF6759B5FDBB37A6E878DE6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3120CEA9B3617F939BF72501 /* ReactNativeInteractor.swift */,
+				D4B607550DEA6E51B26AF707 /* ReactNativeModel.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		9A11B4621FFBE63C000B2DBD /* SharedAdapters */ = {
@@ -183,6 +219,7 @@
 				9A1661C01FFB8BF500E821F4 /* Assets.xcassets */,
 				9A1661C21FFB8BF500E821F4 /* LaunchScreen.storyboard */,
 				9A1661C51FFB8BF500E821F4 /* Info.plist */,
+				36BCDB520602823119CF5F9F /* ReactNative */,
 			);
 			path = CleanArchiExample;
 			sourceTree = "<group>";
@@ -300,6 +337,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C6A21359D393553B0B833D4E /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				83678EC3849D095440B7C5E6 /* ReactNativePresenter.swift */,
+				6FBFC249E9C9B656EE6896D1 /* ReactNativeRouter.swift */,
+				1C74D5CB9CD540690BB612DE /* ReactNativeViewModel.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		EE0A492F885A3EC1C0C83C18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F158949AFF98EC3B2A91BA55 /* ReactNativeStoryboard.storyboard */,
+				3D2B448DDF49B4DF594CFE61 /* ReactNativeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,6 +445,7 @@
 				9A1661C41FFB8BF500E821F4 /* LaunchScreen.storyboard in Resources */,
 				9A1661C11FFB8BF500E821F4 /* Assets.xcassets in Resources */,
 				9A1661BF1FFB8BF500E821F4 /* Main.storyboard in Resources */,
+				F2F7BA0A8CCA08561783390F /* ReactNativeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +537,13 @@
 				9A4CFFBC1FFBB24B002DACE1 /* UserModel.swift in Sources */,
 				9ABE85D0200CF9D8004D9EAF /* ViewModel.swift in Sources */,
 				9A1661BA1FFB8BF500E821F4 /* AppDelegate.swift in Sources */,
+				90BEDCE1DBD79ABD416DD9AD /* ReactNativeView.swift in Sources */,
+				FB8F5C7E20ED817EBFC9A35B /* ReactNativePresenter.swift in Sources */,
+				B4828586119D8E906D916FE7 /* ReactNativeRouter.swift in Sources */,
+				057231A6FC696AAEAE2CE758 /* ReactNativeViewModel.swift in Sources */,
+				3C7EF80AEAA7F4D6ECF478B4 /* ReactNativeInteractor.swift in Sources */,
+				1437F776BC88B41EA300A074 /* ReactNativeModel.swift in Sources */,
+				CEB9552AC8FEFAC982A84A9A /* ReactNativeInjector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

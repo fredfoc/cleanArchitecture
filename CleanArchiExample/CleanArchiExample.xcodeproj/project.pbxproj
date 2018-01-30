@@ -34,12 +34,13 @@
 		9A1661F11FFBAC0400E821F4 /* ExampleCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1661F01FFBAC0400E821F4 /* ExampleCoordinatorProtocol.swift */; };
 		9A4CFFBC1FFBB24B002DACE1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CFFBB1FFBB24B002DACE1 /* UserModel.swift */; };
 		9A4CFFBE1FFBD51F002DACE1 /* ExamplePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CFFBD1FFBD51F002DACE1 /* ExamplePresenterTests.swift */; };
+		9A58EBBB2020DA8300360188 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A58EBBA2020DA8300360188 /* Storyboard.storyboard */; };
 		9ABE85C7200CF7FD004D9EAF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85C6200CF7FD004D9EAF /* View.swift */; };
 		9ABE85C9200CF826004D9EAF /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85C8200CF826004D9EAF /* Presenter.swift */; };
 		9ABE85CB200CF84B004D9EAF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85CA200CF84B004D9EAF /* Router.swift */; };
 		9ABE85CD200CF861004D9EAF /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85CC200CF861004D9EAF /* Interactor.swift */; };
 		9ABE85D0200CF9D8004D9EAF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85CF200CF9D8004D9EAF /* ViewModel.swift */; };
-		9ABE85D2200CFBE3004D9EAF /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85D1200CFBE3004D9EAF /* Injector.swift */; };
+		9ABE85D2200CFBE3004D9EAF /* InjectorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85D1200CFBE3004D9EAF /* InjectorImpl.swift */; };
 		9ABE85D4200CFC9A004D9EAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE85D3200CFC9A004D9EAF /* Model.swift */; };
 		CFC01AA1E36C2A0FE132A23A /* Pods_CleanArchiExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE67806D41499E3A3DDC41E /* Pods_CleanArchiExample.framework */; };
 /* End PBXBuildFile section */
@@ -89,12 +90,13 @@
 		9A1661F01FFBAC0400E821F4 /* ExampleCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		9A4CFFBB1FFBB24B002DACE1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		9A4CFFBD1FFBD51F002DACE1 /* ExamplePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePresenterTests.swift; sourceTree = "<group>"; };
+		9A58EBBA2020DA8300360188 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		9ABE85C6200CF7FD004D9EAF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		9ABE85C8200CF826004D9EAF /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		9ABE85CA200CF84B004D9EAF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		9ABE85CC200CF861004D9EAF /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		9ABE85CF200CF9D8004D9EAF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		9ABE85D1200CFBE3004D9EAF /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		9ABE85D1200CFBE3004D9EAF /* InjectorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectorImpl.swift; sourceTree = "<group>"; };
 		9ABE85D3200CFC9A004D9EAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -260,7 +262,7 @@
 				9ABE85C5200CF7E1004D9EAF /* Adapters */,
 				9ABE85C4200CF7D8004D9EAF /* Interactor */,
 				9ABE85C3200CF7D0004D9EAF /* View */,
-				9ABE85D1200CFBE3004D9EAF /* Injector.swift */,
+				9ABE85D1200CFBE3004D9EAF /* InjectorImpl.swift */,
 			);
 			path = SimplifiedModule;
 			sourceTree = "<group>";
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				9ABE85C6200CF7FD004D9EAF /* View.swift */,
+				9A58EBBA2020DA8300360188 /* Storyboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1661C41FFB8BF500E821F4 /* LaunchScreen.storyboard in Resources */,
+				9A58EBBB2020DA8300360188 /* Storyboard.storyboard in Resources */,
 				9A1661C11FFB8BF500E821F4 /* Assets.xcassets in Resources */,
 				9A1661BF1FFB8BF500E821F4 /* Main.storyboard in Resources */,
 			);
@@ -464,7 +468,7 @@
 				9A1661E91FFBAB0300E821F4 /* ExampleInteractorProtocol.swift in Sources */,
 				9A1661E11FFB912500E821F4 /* ExampleController.swift in Sources */,
 				9A1661DF1FFB907300E821F4 /* ExampleInteractor.swift in Sources */,
-				9ABE85D2200CFBE3004D9EAF /* Injector.swift in Sources */,
+				9ABE85D2200CFBE3004D9EAF /* InjectorImpl.swift in Sources */,
 				9ABE85CD200CF861004D9EAF /* Interactor.swift in Sources */,
 				9A1661F11FFBAC0400E821F4 /* ExampleCoordinatorProtocol.swift in Sources */,
 				9A1661ED1FFBAB7000E821F4 /* ExamplePresenterProtocol.swift in Sources */,

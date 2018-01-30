@@ -13,7 +13,7 @@ protocol InteractorProtocol {
 }
 
 struct Interactor {
-    var presenter: PresenterProtocol
+    var presenter: PresenterInteractorProtocol
 }
 
 extension Interactor: InteractorProtocol {

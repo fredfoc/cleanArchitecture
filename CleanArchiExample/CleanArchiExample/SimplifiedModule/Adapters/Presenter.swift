@@ -8,8 +8,13 @@
 
 import Foundation
 
-protocol PresenterProtocol {
+protocol PresenterViewProtocol {
+    func triggerRequest()
+}
+
+protocol PresenterInteractorProtocol {
     func displayRequest(model: ModelProtocol)
+    mutating func setInteractor(interactor: InteractorProtocol)
 }
 
 struct Presenter {
@@ -24,14 +29,16 @@ struct Presenter {
     mutating func setInteractor(interactor: InteractorProtocol) {
         self.interactor = interactor
     }
-    
-    func triggerRequest() {
-        interactor?.makeRequest()
+}
+
+extension Presenter: PresenterInteractorProtocol {
+    func displayRequest(model: ModelProtocol) {
+        view.displayResult(viewModel: ViewModel(userName: model.name))
     }
 }
 
-extension Presenter: PresenterProtocol {
-    func displayRequest(model: ModelProtocol) {
-        view.displayResult(viewModel: ViewModel(userName: model.name))
+extension Presenter: PresenterViewProtocol {
+    func triggerRequest() {
+        interactor?.makeRequest()
     }
 }

@@ -8,12 +8,13 @@
 
 import UIKit
 
-protocol ViewProtocol {
+protocol ViewProtocol: class {
     func displayResult(viewModel: ViewModel)
+    var presenter: PresenterViewProtocol? {get set}
 }
 
 class View: UIViewController {
-    var presenter: Presenter?
+    var presenter: PresenterViewProtocol?
     @IBAction func trigger(_ sender: Any) {
         presenter?.triggerRequest()
     }

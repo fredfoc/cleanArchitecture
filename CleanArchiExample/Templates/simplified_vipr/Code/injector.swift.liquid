@@ -1,0 +1,31 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+struct {{ module_info.name }}Injector {
+    private func bind(view: {{ module_info.name }}View) {
+        let router = {{ module_info.name }}Router()
+        var presenter = {{ module_info.name }}Presenter(view: view, router: router)
+        let interactor = {{ module_info.name }}Interactor(presenter: presenter)
+        presenter.setInteractor(interactor: interactor)
+        view.presenter = presenter
+    }
+    private func getView() -> ReactNativeView? {
+        return UIStoryboard.init(name: "{{ module_info.name }}StoryBoard", bundle: nil).instantiateInitialViewController() as? {{ module_info.name }}View
+    }
+}
+
+extension {{ module_info.name }}Injector: ExternalModuleProtocol {
+	// change the name of this function to something appropriate
+    func changeScreen() {
+        if let view = getView() {
+            bind(view: view)
+        }
+    }
+}

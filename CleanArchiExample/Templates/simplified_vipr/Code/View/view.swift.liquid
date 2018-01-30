@@ -1,0 +1,25 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+/**
+ *  the way the view is presented to the presenter
+ */
+protocol {{ module_info.name }}ViewProtocol {
+    
+}
+
+class {{ module_info.name }}View: UIViewController {
+	//MARK: Vipr
+    var presenter: {{ module_info.name }}Presenter?
+}
+
+extension {{ module_info.name }}View: {{ module_info.name }}ViewProtocol {
+    
+}

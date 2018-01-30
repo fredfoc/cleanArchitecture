@@ -1,0 +1,24 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+
+/**
+ *  the way the interactor is presented to the presenter
+ */
+protocol {{ module_info.name }}InteractorProtocol {
+    
+}
+
+struct {{ module_info.name }}Interactor {
+    var presenter: {{ module_info.name }}PresenterProtocol
+}
+
+extension {{ module_info.name }}Interactor: {{ module_info.name }}InteractorProtocol {
+    
+}
